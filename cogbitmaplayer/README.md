@@ -1,5 +1,6 @@
 # CogBitmapLayer
 A Deck.gl-compatible layer for loading and displaying tiled COG image data
+<img src = "/images/PragueTiffBitmap.png" width = "100%">
 ## Features
 ### Tiled data rendering
 - Dynamically load and render tiled COG image data
