@@ -16,20 +16,20 @@ Display simple rgb image. If you don't specify a channel to process, it defaults
 ```
 const bitmapLayer = new CogBitmapLayer(
 "cog.tif",
-{type:"image"}
+{type:"image", format:'UINT8'}
 )
 ```
 Display the second channel as a heatmap with data from 0 to 1000
 ```
 const bitmapLayer = new CogBitmapLayer(
 "cog.tif",
-{type:"image", useHeatmap:true, useChannel:1, rangeMin:0, rangeMax: 1000}
+{type:"image", format:'UINT8', useHeatmap:true, useChannel:1, rangeMin:0, rangeMax: 1000}
 )
 ```
 Display the third channel as a blue color and only show data from 100 to 200
 ```
 const bitmapLayer = new CogBitmapLayer(
 "cog.tif",
-{type:"image", useChannel:2, clipLow:100, clipHigh: 200}
+{type:"image", format:'UINT8', useChannel:2, clipLow:100, clipHigh: 200}
 )
 ```
