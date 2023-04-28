@@ -1,5 +1,6 @@
 # CogTerrainLayer
 A Deck.gl-compatible layer for loading and displaying tiled COG height data
+<img src = "/images/PragueTiffHeightmap.png" width = "100%">
 ## Features
 ### Tiled terrain rendering
 - Dynamically load and render tiled COG height data
